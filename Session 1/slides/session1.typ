@@ -115,7 +115,7 @@ Afterwards, we will try to model a computer on the whiteboard together
 == Basic computer model
 
 
-#align(center + horizon)[#include("./resources/computer.typ")]
+#align(center + horizon)[#include "../../shared/resources/computer.typ"]
 
 ---
 
@@ -135,7 +135,7 @@ Logic gates are the building blocks of digital circuits and are made from transi
 == NOT Gate
 The NOT gate (inverter) outputs the opposite of its input.
 
-#include("./resources/not-gate.typ")
+#include "../../shared/resources/not-gate.typ"
 
 Truth Table:
 #align(center)[
@@ -157,7 +157,7 @@ The AND gate outputs 1 only if and only if both inputs are 1.
 
 #v(10mm)
 
-#include "resources/and-gate.typ"
+#include "../../shared/resources/and-gate.typ"
 
 ---
 
@@ -184,7 +184,7 @@ The OR gate outputs 1 if at least one input is 1.
 
 #v(5mm)
 
-#include "resources/or-gate.typ"
+#include "../../shared/resources/or-gate.typ"
 
 --- 
 
