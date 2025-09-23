@@ -6,11 +6,15 @@
 #import "./custom-outline.typ": custom-outline
 #import "@preview/showybox:2.0.4" as mod-showybox
 #import "@preview/curryst:0.5.1" as curryst: rule
+#import "@preview/frame-it:1.2.0": *
 
-#let primary-color = green.darken(60%)
-#let secondary-color = green.darken(40%)
-#let tertiary-color = green.darken(30%)
+
+#let eaaalogo = image("./EAABAA_CMYK.svg", width: 40mm, height: auto) //TODO: Get this into the footer
+#let primary-color = rgb(128, 180, 191).darken(40%)
+#let secondary-color = rgb(190, 212, 219).darken(40%)
+#let tertiary-color = rgb(132, 177, 143).darken(30%)
 #let text-color = black.transparentize(20%)
+#let slide-background-color = rgb(244, 235, 192).lighten(80%)
 
 #let todo(content: text(style: "oblique")[TODO]) = box(stroke: 2pt + red, content)
 #let smc(content) = text(font: "Linux Libertine", smallcaps[#content])
@@ -137,6 +141,7 @@
     )
   }
   let footer(self) = {
+    // Add the logo here, wrapped in a box for sizing
     set align(center + bottom)
     set text(size: .4em)
     {
@@ -239,7 +244,7 @@
   self = utils.merge-dicts(
     self,
     config-common(freeze-slide-counter: true),
-    config-page(fill: self.colors.neutral-lightest),
+    config-page(fill: slide-background-color),
   )
   touying-slide(self: self, body)
 })
@@ -277,7 +282,7 @@
   }
   self = utils.merge-dicts(
     self,
-    config-page(fill: self.colors.neutral-lightest),
+    config-page(fill: slide-background-color),
   )
   touying-slide(self: self, slide-body)
 })
@@ -332,6 +337,7 @@
     self,
     config-common(freeze-slide-counter: true),
     config-page(margin: 0em),
+  
   )
   touying-slide(self: self, composer: components.checkerboard.with(columns: columns, rows: rows), ..bodies)
 })
@@ -402,6 +408,7 @@
       header-ascent: 0em,
       footer-descent: 0em,
       margin: (top: 2em, bottom: 1.25em, x: 2em),
+      fill: slide-background-color
     ),
     config-common(
       slide-fn: slide,
