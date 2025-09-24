@@ -20,8 +20,7 @@
 
 
 #show: university-theme.with(
-  config-common(show-notes-on-second-screen: right,
-  appendix: true),
+  config-common(show-notes-on-second-screen: right, appendix: true),
   config-colors(
     primary: primary-color,
     secondary: secondary-color,
@@ -82,6 +81,7 @@ If you email me about code problems, please make sure that the email includes:
 - A clear description (with screenshots!) of the problem you are experiencing
 - A summary of all the steps you have taken to fix the problem 
   - If you have asked a chat-bot, please specify and maybe include its answer/the whole chat
+  - If you have not asked a chat-bot... then start with that
 - Your own theory of why the code isn't working (if you have one)
 
 
@@ -99,7 +99,7 @@ The course is going to be about *what coding is* and *how to write proper code*.
 
 See this course as the one where you learn the fundemental techniques necessary for you guys to do the projects that are part of your education going forward.
 
-== Course Schedule (updated 16.09.2025)
+== Course Schedule (updated 23.09.2025)
 
 #block[
   #set text(size: 0.80em)
@@ -129,7 +129,7 @@ See this course as the one where you learn the fundemental techniques necessary 
 
 #speaker-note("
 - Emphasize that the QA and exam is on the same day
-- The exam will be 
+- The exam will be digital unless we run into unforeseen problems
 ")
 
 == The Book vs. The Classroom
@@ -684,12 +684,6 @@ Since all data on a machine is in binary, in order for us to represent other typ
 
 #include "../../shared/resources/data-type-diagram.typ"
 
-#v(10mm)
-
-#feature[Task][
-  Do the 'Binary' task on Canvas if not done already 
-]
-
 ---
 
 ...Except when we don't #emoji.face.smile.sweat
@@ -844,14 +838,12 @@ Apart from using the build-in operations on data, we can also define our own *Fu
 ]
 
 #align(horizon)[
-  #definition("Functions in Programming")[*Functions* are defined sequences of operations that do something. They can take  some arguments and use them to do something, and/or they can have *side-effects* where they interact with something outside of the data they have been given (I.e. they print to the screen)]
+  #definition("Functions in Programming")[*Functions* are defined sequences of operations that do something. They can take  some arguments and use them to do something, and/or they can have *side-effects* where they interact with something outside of the data they have been given (I.e. they print to the screen). We define functions for sequences of operations that we want to be *parameterized* and/or *repeatable*]
 ]
 
-= Example program designs
+---
 
-== Standalone program
-
-== CLient-Server
+#align(horizon)[#feature("Task")[Do the 'pseudo-code' task on Canvas]]
 
 
 = Intro to Javascript (Hands-On)
@@ -862,14 +854,12 @@ https://mortenbonderup.github.io/jspad/
 
 In order to follow along easily on your own machine
 
-
-
 = Recap Quiz
 
 == Quiz
 Please login to canvas and find the recap quiz under todays module
 
-the quiz contains 10 questions and is *not graded* - It does *not count towards your final grade at all*. It is there for 2 reasons:
+the quiz contains 8 questions and is *not graded* - It does *not count towards your final grade at all*. It is there for 2 reasons:
 
 #v(1.5mm)
 
@@ -882,8 +872,15 @@ Please use the next 10-15 minutes to complete the quiz.
 
 == Preparation for next time
 
-=== Finish the exercises for today
-But please do not spend more than 2-3 hours on them
+---
+
+=== Finish the exercises on todays module
+But please do not spend more than 2-3 hours on them. If you get stuck:
+- Ask your fellow students for help 
+- Ask a chatbot to explain it to you and guide you through a solution
+- Ask me next session.
+
+---
 
 === Get Setup in GitHub Classroom
 Follow the following link and do the following:

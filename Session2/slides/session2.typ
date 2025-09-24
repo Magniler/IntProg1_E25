@@ -38,9 +38,7 @@
 
 #title-slide()
 
-= Control Structures and Functions
-
-== Learning Goals
+= Learning Goals
 By the end of today, you should:
 - Understand what control structures are and why they are important
 - Know how to use if, if...else, and loops in JavaScript
@@ -49,19 +47,24 @@ By the end of today, you should:
 
 ---
 
-== What is Execution?
-Execution is the process of running your code, line by line, in the order specified by the program. By default, JavaScript runs each statement from top to bottom. However, with control structures, we can change this flow: skip lines, repeat actions, or make decisions. This is what makes programs dynamic and interactive.
-
-*Analogy:* Think of execution like following a recipe. Sometimes you repeat steps (loops), sometimes you make choices (if/else), and sometimes you call another recipe (function).
+= What is Execution?
 
 ---
 
+Execution is the process of running your code, line by line, in the order specified by the program. By default, JavaScript runs each statement from top to bottom. However, with control structures, we can change this flow: skip lines, repeat actions, or make decisions. This is what makes programs dynamic and interactive.
+
+*Analogy:* Think of execution like following a recipe. Sometimes you repeat steps (loops), sometimes you make choices (if/else), and sometimes you have to use another recipe for part of the main recipe (like calling a function).
+
+
 == Conditionals
-Conditionals let us make decisions in code. They allow the program to choose different paths depending on the data or user input.
 
-*Example:* If you are hungry, eat. Otherwise, wait.
+#definition("Conditionals")[Conditionals let us make decisions in code. They allow the program to choose different paths depending on the data or user input. This allows us to create code that *branches out* depending on user input]
 
-=== If Statement
+*Example:* _If_ you are hungry, eat. Otherwise, wait.
+
+---
+
+=== `if` Statement
 The `if` statement checks a condition. If it is true, the code inside the block runs.
 ```js
 let age = 18;
@@ -71,12 +74,13 @@ if (age >= 18) {
 ```
 *Note:* The code inside `{}` only runs if the condition is true.
 
-=== Task 1
-#feature[Task][Write an if statement that checks if a number is positive. If it is, print "Positive number".]
+---
+
+#align(horizon)[#feature[Task][Write an if statement in pseudocode/JavaScript that checks if a number is positive. If it is, print "Positive number" to the console (screen).]]
 
 ---
 
-=== If...Else Statement
+=== `if ... else` Statement
 The `if...else` statement lets you choose between two actions.
 ```js
 let score = 55;
@@ -91,6 +95,13 @@ if (score >= 60) {
 ---
 
 #align(horizon)[#feature[Task][Write an if...else statement that prints "Even" if a number is even, and "Odd" if it is odd.]]
+
+---
+
+=== `if ... else if ... else`
+
+---
+
 
 === The Switch statement
 
@@ -177,6 +188,8 @@ console.log(sum); // prints 10
 
 === Task 5
 #feature[Task][Write a function that takes two numbers and returns the larger one.]
+
+=== Anonymous functions in JS
 
 ---
 

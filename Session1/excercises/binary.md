@@ -1,4 +1,4 @@
-## Exercise: Binary numbers and their representations
+# Exercise: Binary numbers and their representations
 
 In this exercise, you will explore how binary numbers are used to
 represent various forms of data, including text, images, and colors. By

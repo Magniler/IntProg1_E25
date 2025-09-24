@@ -1,4 +1,4 @@
-## Exercises: Variables, datatypes, operators and string manipulation
+# Exercises: Variables, datatypes, operators and string manipulation
 
 These exercises are designed to help you build a strong foundation in
 handling variables and data types, which are essential skills for any
@@ -9,15 +9,15 @@ manipulating strings to achieve desired outcomes.
 Sources:
 
 JavaScript Variables \[WWW Document\], n.d. URL
-<https://www.w3schools.com/js/js_variables.asp> (accessed 9.18.24).
+<https://www.w3schools.com/js/js_variables.asp> (accessed 23.09.25).
 
 JavaScript Strings \[WWW Document\], n.d. URL
-<https://www.w3schools.com/js/js_strings.asp> (accessed 9.18.24).
+<https://www.w3schools.com/js/js_strings.asp> (accessed 23.09.25).
 
 Use <https://mortenbonderup.github.io/jspad/> for the following
 exercises.
 
-### Exercise 1: Declaring Variables and Primitive Data Types
+## Exercise 1: Declaring Variables and Primitive Data Types
 
 **Declare Variables:**
 
@@ -29,7 +29,7 @@ exercises.
 
 - Declare a mutable variable *isStudent* and assign it a value of True.
 
-### Exercise 2: Performing Operations
+## Exercise 2: Performing Operations
 
 **Arithmetic Operations:**
 
@@ -45,7 +45,7 @@ exercises.
   variable for each arithmetic calculation. Display the results using
   *console.log(variable name);*
 
-### Exercise 3: Manipulating Strings
+## Exercise 3: Manipulating Strings
 
 **String Concatenation:**
 
@@ -70,7 +70,7 @@ exercises.
 
   - Identify and display only the "World" word using substring method.
 
-### Exercise 4: Combining Concepts
+## Exercise 4: Combining Concepts
 
 How can one handle user inputs in JavaScript? Have a look at the
 *prompt()* method:
