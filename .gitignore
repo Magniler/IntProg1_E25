@@ -3,3 +3,6 @@ node_modules/*
 package.json
 .vscode/*
 *.pdfpc
+*.DS_Store
+.DS_Store
+.DS_Store

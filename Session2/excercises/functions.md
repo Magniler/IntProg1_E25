@@ -7,7 +7,7 @@ and function arguments. Each exercise is designed to help you understand
 and apply these concepts in a practical way. Let's dive in and start
 building your skills in writing and using functions!
 
-Source: JavaScript Functions \[WWW Document\], n.d. URL
+Source: JavaScript Functions [WWW Document], n.d. URL
 <https://www.w3schools.com/js/js_functions.asp> (accessed 23.09.25).
 
 Use <https://mortenbonderup.github.io/jspad/> to test your programs.
@@ -28,17 +28,17 @@ morning", "Good evening" or "Good afternoon".
 as arguments and returns their sum. Show the result to the user. Explain
 what a return value is and why it is important.
 
-**Task:** Write a function named* calculate_area_of_circle* that takes
+**Task:** Write a function named *calculate_area_of_circle* that takes
 the radius of a circle as an argument and returns the area of the
 circle. Show the result to the user.
 
 ### Exercise 3: Global and Local Variables
 
-**Task: **Write a function called *increment* that takes a number as an
+**Task:** Write a function called *increment* that takes a number as an
 argument, increments it by 1, and returns the new value. Use a local
 variable to store the incremented value.
 
-**Task:** Write a function called* calculate_area *that takes two
+**Task:** Write a function called *calculate_area* that takes two
 arguments (length and width), calculates the area of a rectangle, and
 returns the result. Use a global variable to keep track of the total
 area calculated so far. Show the values to the user.
@@ -90,7 +90,7 @@ Here is a suggestion to the statement sequence in plain english:
     - Inside the function:
 
       - Convert the Celsius temperature to Fahrenheit using the formula:
-        (celsius \* 9/5) + 32.
+        (celsius * 9/5) + 32.
 
       - Increment the global variable conversion_count by 1.
 
@@ -102,7 +102,7 @@ Here is a suggestion to the statement sequence in plain english:
     - Inside the function:
 
       - Convert the Fahrenheit temperature to Celsius using the formula:
-        (fahrenheit - 32) \* 5/9.
+        (fahrenheit - 32) * 5/9.
 
       - Increment the global variable conversion_count by 1.
 

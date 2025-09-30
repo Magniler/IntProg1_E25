@@ -11,13 +11,13 @@ theoretical questions and practical programming tasks.
 
 Sources:
 
-JavaScript for Loop \[WWW Document\], n.d. URL
+JavaScript for Loop [WWW Document], n.d. URL
 <https://www.w3schools.com/js/js_loop_for.asp> (accessed 23.09.25).
 
-JavaScript while Loop \[WWW Document\], n.d. URL
+JavaScript while Loop [WWW Document], n.d. URL
 <https://www.w3schools.com/js/js_loop_while.asp> (accessed 23.09.25).
 
-JavaScript Array forEach() Method \[WWW Document\], n.d. URL
+JavaScript Array forEach() Method [WWW Document], n.d. URL
 <https://www.w3schools.com/jsref/jsref_foreach.asp> (accessed 23.09.25).
 
 ### Theoretical Exercises
@@ -68,7 +68,8 @@ the following operations using different types of loops:
     together with console.log to show the cars**.**
 
 **Task:** Below you see a computer program that throws a dice and let
-the user guess what side is up? Type / copy the code to
+the user guess what side is up. But the code is not finished and has some flaws.
+Type / copy the code to
 <https://mortenbonderup.github.io/jspad> and try it out. Here are what
 you must do (solve one at a time):
 
@@ -88,23 +89,25 @@ you must do (solve one at a time):
     high or too low. Use if-else statements inside the loop to compare
     the guess with the random number and provide appropriate hints.
 
-const randomNumber = Math.floor(Math.random() \* 6) + 1;
+```js
+const randomNumber = Math.floor(Math.random() * 6) + 1;
 
 let guess = 0;
 
 while (guess !== randomNumber) {
 
-guess = Number(prompt(\"Guess the dice side (1-6):\"), 10);
+    guess = Number(prompt("Guess the dice side (1-6):"), 10);
 
-if (guess === randomNumber) {
+    if (guess === randomNumber) {
 
-alert(\"Congratulations! You guessed the correct number: \" +
-randomNumber);
+        alert("Congratulations! You guessed the correct number: " +
+        randomNumber);
 
-} else {
+    } else {
 
-alert(\"Try again!\");
+    alert("Try again!");
+
+    }
 
 }
-
-}
+```

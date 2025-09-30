@@ -9,12 +9,9 @@
 
 #let (example, feature, variant, syntax) = frames(
   feature: ("Task", tertiary-color.lighten(40%)),
-  // For each frame kind, you have to provide its supplement title to be displayed
-  variant: ("Variant",),
-  // You can provide a color or leave it out and it will be generated
-  example: ("Example", gray),
-  // You can add as many as you want
-  syntax: ("Syntax",),
+  variant: ("Variant",), //TODO test out
+  example: ("Example", gray), //TODO test out
+  syntax: ("Syntax",), //TODO test out
 )
 #show: frame-style(styles.boxy)
 
